@@ -5,11 +5,7 @@ import boto3
 import pytest  # noqa: F401
 from botocore.exceptions import ClientError
 
-
 _stack_outputs_: List[str] = {}
-
-
-
 
 
 def stack_outputs_for_key(key: str) -> List[str]:
